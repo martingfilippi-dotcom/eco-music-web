@@ -192,3 +192,18 @@ h2{font-size:clamp(38px,5vw,64px);line-height:1.02;letter-spacing:-.065em;font-w
 .paraguay-flag-image{display:block;width:29px;height:19px;object-fit:cover;border-radius:2px;box-shadow:0 0 0 1px rgba(30,35,30,.22);flex-shrink:0}
 .emblem-flag-image{display:block;width:66px;height:44px;object-fit:cover;box-shadow:0 6px 20px #0003}
 @media(max-width:640px){.paraguay-flag-image{width:24px;height:16px}.emblem-flag-image{width:54px;height:36px}}
+
+/* Verified artist-platform links */
+.artist-socials{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:8px;min-width:0}
+.artist-social-link{width:40px;height:40px;display:inline-grid;place-items:center;flex:0 0 auto;border:1px solid rgba(255,255,255,.16);border-radius:50%;background:#171715;box-shadow:0 5px 14px rgba(0,0,0,.12);transition:transform .18s ease,border-color .18s ease,background .18s ease}
+.artist-social-link svg{display:block;width:19px;height:19px}
+.artist-social-link:hover,.artist-social-link:focus-visible{transform:translateY(-3px);border-color:#ff8b50;background:#24211e;outline:none}
+.artist-social-link.network-youtube{background:#211416}
+.artist-social-link.network-spotify{background:#13251a}
+.artist-social-link.network-apple{background:#242126}
+.artist-social-link.network-instagram{background:#211820}
+.social-pending{color:#aaa79f;font-size:10px;line-height:1.6;max-width:190px}
+.indie-profile-layout .artist-socials{margin-top:24px;gap:11px}
+.indie-profile-layout .artist-social-link{width:44px;height:44px}
+.indie-profile-layout .artist-social-link svg{width:21px;height:21px}
+@media(max-width:640px){.artist-socials{gap:7px}.artist-social-link{width:36px;height:36px}.artist-social-link svg{width:17px;height:17px}.profile-row .artist-socials{margin-top:12px}.indie-profile-layout .artist-social-link{width:40px;height:40px}}
